@@ -19,6 +19,7 @@ lazy val root = (project in file("."))
   )
 
 
+libraryDependencies += "javax.xml.bind" % "jaxb-api" % "2.4.0-b180830.0359"//java9+ needed
 libraryDependencies += "org.jboss.weld.servlet" % "weld-servlet-core" % "3.1.1.Final"
 libraryDependencies += "javax.websocket" % "javax.websocket-api" % "1.1" % "provided"
 
